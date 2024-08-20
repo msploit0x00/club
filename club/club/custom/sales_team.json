@@ -1,0 +1,32 @@
+{
+ "custom_fields": [],
+ "custom_perms": [],
+ "doctype": "Sales Team",
+ "property_setters": [
+  {
+   "_assign": null,
+   "_comments": null,
+   "_liked_by": null,
+   "_user_tags": null,
+   "creation": "2023-07-11 14:15:00.286231",
+   "default_value": null,
+   "doc_type": "Sales Team",
+   "docstatus": 0,
+   "doctype_or_field": "DocField",
+   "field_name": "allocated_percentage",
+   "idx": 0,
+   "modified": "2023-07-11 14:15:00.286231",
+   "modified_by": "asaeed@datasofteg.com",
+   "name": "Sales Team-allocated_percentage-default",
+   "owner": "asaeed@datasofteg.com",
+   "parent": null,
+   "parentfield": null,
+   "parenttype": null,
+   "property": "default",
+   "property_type": "Text",
+   "row_name": null,
+   "value": "100"
+  }
+ ],
+ "sync_on_migrate": 1
+}

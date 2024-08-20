@@ -25,7 +25,7 @@ from datetime import date,timedelta
 
 from hrms.hr.doctype.shift_type.shift_type import ShiftType
 import requests
-from sap.api import session_login
+
 
 
 
@@ -45,10 +45,3 @@ def daily():
     
     return allShiftnames
 
-@frappe.whitelist()
-def test():
-    # recs = frappe.get_all("QC Integration Details")
-    rec = frappe.get_doc("QC Integration Details", "dedb45acd9")
-
-    # return recs
-    return type(rec.status_link)
