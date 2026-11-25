@@ -115,13 +115,6 @@ override_doctype_class = {
 #	}
 # }
 
-doc_events = {
-	"Sales Invoice": {
-		# late payment penalty of subscription invoices, on submit (was in a Client Script)
-		"before_validate": "club.penalty.add_penalty_on_submit",
-	},
-}
-
 # Scheduled Tasks
 # ---------------
 
